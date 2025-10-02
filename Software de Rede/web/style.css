@@ -1,0 +1,66 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    body {
+      display: flex;
+      font-family: "poppins";
+      margin: 40px;
+      background-image: url("Imagem.png");
+      background-size:cover ;
+      background-repeat: no-repeat;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      padding: 30px;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 5px 100px rgb(6, 152, 219);
+      max-width: 500px;
+    }
+
+    #titulo{
+      text-align: center;
+    }
+
+    input{
+      margin: 10px 5px 15px 0px;
+      padding: 8px;
+      width: 100% ;
+      border-radius: 15px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    button {
+      margin: 10px auto 10px auto;
+      padding: 8px;
+      width: 104% ;
+      border-radius: 15px;
+      border: 1px solid #ccc;
+      outline: none;
+      background: #007BFF;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+      transition: 0.5s;
+      box-shadow: 0 0 10px #4897eb;
+    }
+
+    .resultado {
+      margin-top: 20px;
+      width: 100%;
+      padding: 5px;
+      background: #f0f8ff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
